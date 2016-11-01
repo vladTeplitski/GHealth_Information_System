@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="com.microsoft.tfs.client.common.ui.dialogs.connect.CredentialsDialog">
+		<item value="3" key="VIEWS"/>
+		<item value="206" key="DIALOG_ORIGIN_Y"/>
+		<item value="517" key="DIALOG_ORIGIN_X"/>
+		<item value="886" key="DIALOG_WIDTH"/>
+		<item value="05/27/16 21:34:48" key="SINCE"/>
+		<item value="25084" key="ACCUMULATED_OPEN_TIME"/>
+		<item value="456" key="DIALOG_HEIGHT"/>
+		<item value="3" key="TIME_COUNTS"/>
+	</section>
+</section>

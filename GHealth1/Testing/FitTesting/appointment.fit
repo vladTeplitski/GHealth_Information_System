@@ -1,0 +1,522 @@
+<html xmlns="http://www.w3.org/TR/REC-html40" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word">
+	<head>
+		<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type" />
+		<meta content="Word.Document" name="ProgId" />
+		<meta content="MSHTML 11.00.10240.16847" name="GENERATOR" />
+		<meta content="Microsoft Word 11" name="Originator" />
+		<link href="EditRecipe_files/filelist.xml" rel="File-List" />
+		<title>Edit Recipe FIT Test</title>
+<!--[if gte mso 9]><xml> <o:DocumentProperties>  <o:Author>KATERINA</o:Author>  <o:Template>Normal</o:Template>  <o:LastAuthor>KATERINA</o:LastAuthor>  <o:Revision>5</o:Revision>  <o:TotalTime>2</o:TotalTime>  <o:Created>2009-01-25T14:35:00Z</o:Created>  <o:LastSaved>2009-01-25T14:39:00Z</o:LastSaved>  <o:Pages>1</o:Pages>  <o:Words>157</o:Words>  <o:Characters>900</o:Characters>  <o:Company>HOME</o:Company>  <o:Lines>7</o:Lines>  <o:Paragraphs>2</o:Paragraphs>  <o:CharactersWithSpaces>1055</o:CharactersWithSpaces>  <o:Version>11.5606</o:Version> </o:DocumentProperties></xml><![endif]--><!--[if gte mso 9]><xml> <w:WordDocument>  <w:GrammarState>Clean</w:GrammarState>  <w:ValidateAgainstSchemas/>  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel> </w:WordDocument></xml><![endif]--><!--[if gte mso 9]><xml> <w:LatentStyles DefLockedState="false" LatentStyleCount="156"> </w:LatentStyles></xml><![endif]-->		<style type="text/css">
+<!--{cke_protected}{C}%3C!%2D%2D%20%2F*%20Style%20Definitions%20*%2F%20p.MsoNormal%2C%20li.MsoNormal%2C%20div.MsoNormal%09%7Bmso-style-parent%3A%22%22%3B%09margin%3A0cm%3B%09margin-bottom%3A.0001pt%3B%09mso-pagination%3Awidow-orphan%3B%09font-size%3A12.0pt%3B%09font-family%3A%22Times%20New%20Roman%22%3B%09mso-fareast-font-family%3A%22Times%20New%20Roman%22%3B%7Da%3Alink%2C%20span.MsoHyperlink%09%7Bcolor%3Ablue%3B%09text-decoration%3Aunderline%3B%09text-underline%3Asingle%3B%7Da%3Avisited%2C%20span.MsoHyperlinkFollowed%09%7Bcolor%3Ablue%3B%09text-decoration%3Aunderline%3B%09text-underline%3Asingle%3B%7Dp%09%7Bmso-margin-top-alt%3Aauto%3B%09margin-right%3A0cm%3B%09mso-margin-bottom-alt%3Aauto%3B%09margin-left%3A0cm%3B%09mso-pagination%3Awidow-orphan%3B%09font-size%3A12.0pt%3B%09font-family%3A%22Times%20New%20Roman%22%3B%09mso-fareast-font-family%3A%22Times%20New%20Roman%22%3B%7Dp.style1%2C%20li.style1%2C%20div.style1%09%7Bmso-style-name%3Astyle1%3B%09mso-margin-top-alt%3Aauto%3B%09margin-right%3A0cm%3B%09mso-margin-bottom-alt%3Aauto%3B%09margin-left%3A0cm%3B%09mso-pagination%3Awidow-orphan%3B%09font-size%3A12.0pt%3B%09font-family%3AArial%3B%09mso-fareast-font-family%3A%22Times%20New%20Roman%22%3B%7Dspan.style11%09%7Bmso-style-name%3Astyle11%3B%09font-family%3AArial%3B%09mso-ascii-font-family%3AArial%3B%09mso-hansi-font-family%3AArial%3B%09mso-bidi-font-family%3AArial%3B%7D%40page%20Section1%09%7Bsize%3A595.3pt%20841.9pt%3B%09margin%3A72.0pt%2090.0pt%2072.0pt%2090.0pt%3B%09mso-header-margin%3A35.4pt%3B%09mso-footer-margin%3A35.4pt%3B%09mso-paper-source%3A0%3B%7Ddiv.Section1%09%7Bpage%3ASection1%3B%7D%2D%2D%3E-->		</style>
+<!--[if gte mso 10]><style> /* Style Definitions */ table.MsoNormalTable	{mso-style-name:"Table Normal";	mso-tstyle-rowband-size:0;	mso-tstyle-colband-size:0;	mso-style-noshow:yes;	mso-style-parent:"";	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;	mso-para-margin:0cm;	mso-para-margin-bottom:.0001pt;	mso-pagination:widow-orphan;	font-size:10.0pt;	font-family:"Times New Roman";	mso-ansi-language:#0400;	mso-fareast-language:#0400;	mso-bidi-language:#0400;}</style><![endif]-->	</head>
+	<body lang="RU" link="blue" style="tab-interval: 35.4pt;" vlink="blue">
+		<div class="Section1">
+			<p class="style1">
+				<span lang="EN-US" style="mso-ansi-language: EN-US;">New Appointment&nbsp;acceptance test.&nbsp;<o:p></o:p></span></p>
+			<p class="style1">
+				<span lang="EN-US" style="mso-ansi-language: EN-US;">The test is checking the running functionality of: checking the existance of a patient, right patient id input, referral id input - ecistance in data base and&nbsp;right input. &nbsp;<o:p></o:p></span></p>
+			<table border="1" cellpadding="0" cellspacing="0" class="MsoNormalTable" style="width: 573.75pt; mso-cellspacing: 0cm; mso-padding-alt: 3.75pt 3.75pt 3.75pt 3.75pt;" width="765">
+				<tbody>
+					<tr style="mso-yfti-irow: 0; mso-yfti-firstrow: yes;">
+						<td colspan="3" style="padding: 3.75pt;">
+							<p class="MsoNormal">
+								<span style="font-family: Arial;">fit.ActionFixture<o:p></o:p></span></p>
+						</td>
+					</tr>
+					<tr style="mso-yfti-irow: 1;">
+						<td style="padding: 3.75pt;">
+							<p class="MsoNormal">
+								<span style="font-family: Arial;">start<o:p></o:p></span></p>
+						</td>
+						<td style="padding: 3.75pt;">
+							<p class="MsoNormal">
+								<span lang="EN-US" style="font-family: Arial; mso-ansi-language: EN-US;">Fixtures.newAppointmentCreating</span></p>
+						</td>
+						<td style="padding: 3.75pt;">
+							<p class="MsoNormal">
+								<span lang="EN-US" style="font-family: Arial; mso-ansi-language: EN-US;">&nbsp;<o:p></o:p></span></p>
+						</td>
+					</tr>
+					<tr style="mso-yfti-irow: 2;">
+						<td style="padding: 3.75pt;">
+							<p class="MsoNormal">
+								<span style="color: rgb(0, 0, 205); font-family: Arial;">enter</span></p>
+						</td>
+						<td style="padding: 3.75pt;">
+							<p class="MsoNormal">
+								<span style="color: rgb(0, 0, 205); font-family: Arial;">checkPatientID</span></p>
+						</td>
+						<td style="padding: 3.75pt;">
+							<p class="MsoNormal">
+								<span style="color: rgb(0, 0, 205); font-family: Arial;">123456789</span></p>
+						</td>
+					</tr>
+					<tr style="mso-yfti-irow: 2;">
+						<td style="padding: 3.75pt;">
+							<p class="MsoNormal">
+								<span style="font-family: Arial;">check</span></p>
+						</td>
+						<td style="padding: 3.75pt;">
+							<p class="MsoNormal">
+								<span style="font-family: Arial;">isExpected</span></p>
+						</td>
+						<td style="padding: 3.75pt;">
+							<p class="MsoNormal">
+								<span style="font-family: Arial;">true</span></p>
+						</td>
+					</tr>
+					<tr style="mso-yfti-irow: 2;">
+						<td style="padding: 3.75pt;">
+							<p class="MsoNormal">
+								<span style="font-family: Arial;">enter</span></p>
+						</td>
+						<td style="padding: 3.75pt;">
+							<p class="MsoNormal">
+								<span style="color: rgb(0, 0, 205); font-family: Arial;">checkPatientID</span></p>
+						</td>
+						<td style="padding: 3.75pt;">
+							<p class="MsoNormal">
+								<span style="font-family: Arial;">222</span></p>
+						</td>
+					</tr>
+					<tr style="mso-yfti-irow: 2;">
+						<td style="padding: 3.75pt;">
+							<p class="MsoNormal">
+								<span style="font-family: Arial;">check</span></p>
+						</td>
+						<td style="padding: 3.75pt;">
+							<p class="MsoNormal">
+								<span style="font-family: Arial;">isExpected</span></p>
+						</td>
+						<td style="padding: 3.75pt;">
+							<p class="MsoNormal">
+								<span style="font-family: Arial;">false</span></p>
+						</td>
+					</tr>
+					<tr style="mso-yfti-irow: 2;">
+						<td style="padding: 3.75pt;">
+							<p class="MsoNormal">
+								<span style="font-family: Arial;">enter</span></p>
+						</td>
+						<td style="padding: 3.75pt;">
+							<p class="MsoNormal">
+								<span style="color: rgb(0, 0, 205); font-family: Arial;">checkPatientID</span></p>
+						</td>
+						<td style="padding: 3.75pt;">
+							<p class="MsoNormal">
+								&nbsp;</p>
+						</td>
+					</tr>
+					<tr style="mso-yfti-irow: 2;">
+						<td style="padding: 3.75pt;">
+							<p class="MsoNormal">
+								<span style="font-family: Arial;">check</span></p>
+						</td>
+						<td style="padding: 3.75pt;">
+							<p class="MsoNormal">
+								<span style="font-family: Arial;">isExpected</span></p>
+						</td>
+						<td style="padding: 3.75pt;">
+							<p class="MsoNormal">
+								false</p>
+						</td>
+					</tr>
+					<tr style="mso-yfti-irow: 2;">
+						<td style="padding: 3.75pt;">
+							<p class="MsoNormal">
+								<span style="font-family: Arial;">enter</span></p>
+						</td>
+						<td style="padding: 3.75pt;">
+							<p class="MsoNormal">
+								<span style="font-family: Arial;">setDocSpec</span></p>
+						</td>
+						<td style="padding: 3.75pt;">
+							<p class="MsoNormal">
+								kids</p>
+						</td>
+					</tr>
+					<tr style="mso-yfti-irow: 2;">
+						<td style="padding: 3.75pt;">
+							<p class="MsoNormal">
+								<span style="font-family: Arial;">enter</span></p>
+						</td>
+						<td style="padding: 3.75pt;">
+							<p class="MsoNormal">
+								<span style="font-family: Arial;">setPatientNum</span></p>
+						</td>
+						<td style="padding: 3.75pt;">
+							<p class="MsoNormal">
+								499037839</p>
+						</td>
+					</tr>
+					<tr style="mso-yfti-irow: 2;">
+						<td style="padding: 3.75pt;">
+							<p class="MsoNormal">
+								<span style="font-family: Arial;">press</span></p>
+						</td>
+						<td style="padding: 3.75pt;">
+							<p class="MsoNormal">
+								<span style="color: rgb(0, 0, 205); font-family: Arial;">referralIDsearch</span></p>
+						</td>
+						<td style="padding: 3.75pt;">
+							<p class="MsoNormal">
+								&nbsp;</p>
+						</td>
+					</tr>
+					<tr style="mso-yfti-irow: 2;">
+						<td style="padding: 3.75pt;">
+							<p class="MsoNormal">
+								<span style="font-family: Arial;">check</span></p>
+						</td>
+						<td style="padding: 3.75pt;">
+							<p class="MsoNormal">
+								<span style="font-family: Arial;">isExpected</span></p>
+						</td>
+						<td style="padding: 3.75pt;">
+							<p class="MsoNormal">
+								true</p>
+						</td>
+					</tr>
+					<tr style="mso-yfti-irow: 2;">
+						<td style="padding: 3.75pt;">
+							<p class="MsoNormal">
+								<span style="font-family: Arial;">enter</span></p>
+						</td>
+						<td style="padding: 3.75pt;">
+							<p class="MsoNormal">
+								<span style="font-family: Arial;">setPatientNum</span></p>
+						</td>
+						<td style="padding: 3.75pt;">
+							<p class="MsoNormal">
+								499037839</p>
+						</td>
+					</tr>
+					<tr style="mso-yfti-irow: 2;">
+						<td style="padding: 3.75pt;">
+							<p class="MsoNormal">
+								<span style="font-family: Arial;">enter</span></p>
+						</td>
+						<td style="padding: 3.75pt;">
+							<p class="MsoNormal">
+								<span style="font-family: Arial;">setDocSpec</span></p>
+						</td>
+						<td style="padding: 3.75pt;">
+							<p class="MsoNormal">
+								dentist</p>
+						</td>
+					</tr>
+					<tr style="mso-yfti-irow: 2;">
+						<td style="padding: 3.75pt;">
+							<p class="MsoNormal">
+								<span style="font-family: Arial;">press</span></p>
+						</td>
+						<td style="padding: 3.75pt;">
+							<p class="MsoNormal">
+								<span style="color: rgb(0, 0, 205); font-family: Arial;">referralIDsearch</span></p>
+						</td>
+						<td style="padding: 3.75pt;">
+							<p class="MsoNormal">
+								&nbsp;</p>
+						</td>
+					</tr>
+					<tr style="mso-yfti-irow: 2;">
+						<td style="padding: 3.75pt;">
+							<p class="MsoNormal">
+								<span style="font-family: Arial;">check</span></p>
+						</td>
+						<td style="padding: 3.75pt;">
+							<p class="MsoNormal">
+								<span style="font-family: Arial;">isExpected</span></p>
+						</td>
+						<td style="padding: 3.75pt;">
+							<p class="MsoNormal">
+								false</p>
+						</td>
+					</tr>
+					<tr style="mso-yfti-irow: 2;">
+						<td style="padding: 3.75pt;">
+							<p class="MsoNormal">
+								<span style="font-family: Arial;">enter</span></p>
+						</td>
+						<td style="padding: 3.75pt;">
+							<p class="MsoNormal">
+								<span style="font-family: Arial;">setDocSpec</span></p>
+						</td>
+						<td style="padding: 3.75pt;">
+							<p class="MsoNormal">
+								kids</p>
+						</td>
+					</tr>
+					<tr style="mso-yfti-irow: 2;">
+						<td style="padding: 3.75pt;">
+							<p class="MsoNormal">
+								<span style="font-family: Arial;">enter</span></p>
+						</td>
+						<td style="padding: 3.75pt;">
+							<p class="MsoNormal">
+								<span style="font-family: Arial;">setPatientNum</span></p>
+						</td>
+						<td style="padding: 3.75pt;">
+							<p class="MsoNormal">
+								5</p>
+						</td>
+					</tr>
+					<tr style="mso-yfti-irow: 2;">
+						<td style="padding: 3.75pt;">
+							<p class="MsoNormal">
+								<span style="font-family: Arial;">press</span></p>
+						</td>
+						<td style="padding: 3.75pt;">
+							<p class="MsoNormal">
+								<span style="color: rgb(0, 0, 205); font-family: Arial;">referralIDsearch</span></p>
+						</td>
+						<td style="padding: 3.75pt;">
+							<p class="MsoNormal">
+								&nbsp;</p>
+						</td>
+					</tr>
+					<tr style="mso-yfti-irow: 2;">
+						<td style="padding: 3.75pt;">
+							<p class="MsoNormal">
+								<span style="font-family: Arial;">check</span></p>
+						</td>
+						<td style="padding: 3.75pt;">
+							<p class="MsoNormal">
+								<span style="font-family: Arial;">isExpected</span></p>
+						</td>
+						<td style="padding: 3.75pt;">
+							<p class="MsoNormal">
+								false</p>
+						</td>
+					</tr>
+					<tr style="mso-yfti-irow: 2;">
+						<td style="padding: 3.75pt;">
+							<p class="MsoNormal">
+								<span style="font-family: Arial;">enter</span></p>
+						</td>
+						<td style="padding: 3.75pt;">
+							<p class="MsoNormal">
+								<span style="font-family: Arial;">setDocSpec</span></p>
+						</td>
+						<td style="padding: 3.75pt;">
+							<p class="MsoNormal">
+								Orthopedist</p>
+						</td>
+					</tr>
+					<tr style="mso-yfti-irow: 2;">
+						<td style="padding: 3.75pt;">
+							<p class="MsoNormal">
+								<span style="font-family: Arial;">enter</span></p>
+						</td>
+						<td style="padding: 3.75pt;">
+							<p class="MsoNormal">
+								<span style="font-family: Arial;">setPatientNum</span></p>
+						</td>
+						<td style="padding: 3.75pt;">
+							<p class="MsoNormal">
+								309098999</p>
+						</td>
+					</tr>
+					<tr style="mso-yfti-irow: 2;">
+						<td style="padding: 3.75pt;">
+							<p class="MsoNormal">
+								<span style="font-family: Arial;">press</span></p>
+						</td>
+						<td style="padding: 3.75pt;">
+							<p class="MsoNormal">
+								<span style="color: rgb(0, 0, 205); font-family: Arial;">AtLeastOneDocSpecVisit</span></p>
+						</td>
+						<td style="padding: 3.75pt;">
+							<p class="MsoNormal">
+								&nbsp;</p>
+						</td>
+					</tr>
+					<tr style="mso-yfti-irow: 2;">
+						<td style="padding: 3.75pt;">
+							<p class="MsoNormal">
+								<span style="font-family: Arial;">check</span></p>
+						</td>
+						<td style="padding: 3.75pt;">
+							<p class="MsoNormal">
+								<span style="font-family: Arial;">isExpected</span></p>
+						</td>
+						<td style="padding: 3.75pt;">
+							<p class="MsoNormal">
+								true</p>
+						</td>
+					</tr>
+					<tr style="mso-yfti-irow: 2;">
+						<td style="padding: 3.75pt;">
+							<p class="MsoNormal">
+								<span style="font-family: Arial;">enter</span></p>
+						</td>
+						<td style="padding: 3.75pt;">
+							<p class="MsoNormal">
+								<span style="font-family: Arial;">setDocSpec</span></p>
+						</td>
+						<td style="padding: 3.75pt;">
+							<p class="MsoNormal">
+								kids</p>
+						</td>
+					</tr>
+					<tr style="mso-yfti-irow: 2;">
+						<td style="padding: 3.75pt;">
+							<p class="MsoNormal">
+								<span style="font-family: Arial;">enter</span></p>
+						</td>
+						<td style="padding: 3.75pt;">
+							<p class="MsoNormal">
+								<span style="font-family: Arial;">setPatientNum</span></p>
+						</td>
+						<td style="padding: 3.75pt;">
+							<p class="MsoNormal">
+								499037839</p>
+						</td>
+					</tr>
+					<tr style="mso-yfti-irow: 2;">
+						<td style="padding: 3.75pt;">
+							<p class="MsoNormal">
+								<span style="font-family: Arial;">press</span></p>
+						</td>
+						<td style="padding: 3.75pt;">
+							<p class="MsoNormal">
+								<span style="color: rgb(0, 0, 205); font-family: Arial;">AtLeastOneDocSpecVisit</span></p>
+						</td>
+						<td style="padding: 3.75pt;">
+							<p class="MsoNormal">
+								&nbsp;</p>
+						</td>
+					</tr>
+					<tr style="mso-yfti-irow: 2;">
+						<td style="padding: 3.75pt;">
+							<p class="MsoNormal">
+								<span style="font-family: Arial;">check</span></p>
+						</td>
+						<td style="padding: 3.75pt;">
+							<p class="MsoNormal">
+								<span style="font-family: Arial;">isExpected</span></p>
+						</td>
+						<td style="padding: 3.75pt;">
+							<p class="MsoNormal">
+								false</p>
+						</td>
+					</tr>
+					<tr style="mso-yfti-irow: 2;">
+						<td style="padding: 3.75pt;">
+							<p class="MsoNormal">
+								<span style="font-family: Arial;">enter</span></p>
+						</td>
+						<td style="padding: 3.75pt;">
+							<p class="MsoNormal">
+								<span style="font-family: Arial;">setPatientNum</span></p>
+						</td>
+						<td style="padding: 3.75pt;">
+							<p class="MsoNormal">
+								309197119</p>
+						</td>
+					</tr>
+					<tr style="mso-yfti-irow: 2;">
+						<td style="padding: 3.75pt;">
+							<p class="MsoNormal">
+								<span style="font-family: Arial;">enter</span></p>
+						</td>
+						<td style="padding: 3.75pt;">
+							<p class="MsoNormal">
+								<span style="color: rgb(0, 0, 0); font-family: Arial;">setDocID</span></p>
+						</td>
+						<td style="padding: 3.75pt;">
+							<p class="MsoNormal">
+								2001</p>
+						</td>
+					</tr>
+					<tr style="mso-yfti-irow: 2;">
+						<td style="padding: 3.75pt;">
+							<p class="MsoNormal">
+								<span style="font-family: Arial;">enter</span></p>
+						</td>
+						<td style="padding: 3.75pt;">
+							<p class="MsoNormal">
+								<span style="font-family: Arial;">setClinicID</span></p>
+						</td>
+						<td style="padding: 3.75pt;">
+							<p class="MsoNormal">
+								3001</p>
+						</td>
+					</tr>
+					<tr style="mso-yfti-irow: 2;">
+						<td style="padding: 3.75pt;">
+							<p class="MsoNormal">
+								<span style="font-family: Arial;">enter</span></p>
+						</td>
+						<td style="padding: 3.75pt;">
+							<p class="MsoNormal">
+								<span style="font-family: Arial;">setCreationDate</span></p>
+						</td>
+						<td style="padding: 3.75pt;">
+							<p class="MsoNormal">
+								2016-06-20</p>
+						</td>
+					</tr>
+					<tr style="mso-yfti-irow: 2;">
+						<td style="padding: 3.75pt;">
+							<p class="MsoNormal">
+								<span style="font-family: Arial;">enter</span></p>
+						</td>
+						<td style="padding: 3.75pt;">
+							<p class="MsoNormal">
+								<span style="font-family: Arial;">setAppointmentDate</span></p>
+						</td>
+						<td style="padding: 3.75pt;">
+							<p class="MsoNormal">
+								2016-06-27</p>
+						</td>
+					</tr>
+					<tr style="mso-yfti-irow: 2;">
+						<td style="padding: 3.75pt;">
+							<p class="MsoNormal">
+								<span style="font-family: Arial;">enter</span></p>
+						</td>
+						<td style="padding: 3.75pt;">
+							<p class="MsoNormal">
+								<span style="font-family: Arial;">setAppointmentHour</span></p>
+						</td>
+						<td style="padding: 3.75pt;">
+							<p class="MsoNormal">
+								08:30</p>
+						</td>
+					</tr>
+					<tr style="mso-yfti-irow: 2;">
+						<td style="padding: 3.75pt;">
+							<p class="MsoNormal">
+								<span style="font-family: Arial;">press</span></p>
+						</td>
+						<td style="padding: 3.75pt;">
+							<p class="MsoNormal">
+								<span style="color: rgb(0, 0, 205); font-family: Arial;">CreationAppointment</span></p>
+						</td>
+						<td style="padding: 3.75pt;">
+							<p class="MsoNormal">
+								&nbsp;</p>
+						</td>
+					</tr>
+					<tr style="mso-yfti-irow: 2;">
+						<td style="padding: 3.75pt;">
+							<p class="MsoNormal">
+								<span style="font-family: Arial;">check</span></p>
+						</td>
+						<td style="padding: 3.75pt;">
+							<p class="MsoNormal">
+								<span style="font-family: Arial;">isExpected</span></p>
+						</td>
+						<td style="padding: 3.75pt;">
+							<p class="MsoNormal">
+								true</p>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<p>
+				<span lang="EN-US" style="mso-ansi-language: EN-US;"><o:p></o:p></span></p>
+		</div>
+	</body>
+</html>

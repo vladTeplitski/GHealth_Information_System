@@ -1,0 +1,56 @@
+import static org.junit.Assert.*;
+import junit.framework.TestCase;
+import ocsf.Main.MainClient;
+import ocsf.Main.MainServer;
+
+import org.junit.After;
+import org.junit.AfterClass;
+import org.junit.Before;
+import org.junit.BeforeClass;
+import org.junit.Test;
+
+import control.WorkerController;
+
+
+public class LoginTest extends TestCase{
+	//public static MainClient mainClient;
+	//public static MainServer mainServ;
+	char[] pass = "12345".toCharArray();
+	
+
+//
+
+	@BeforeClass
+	public static void setUpBeforeClass() throws Exception {
+//		mainServ = new MainServer(5554);
+//		mainClient = new MainClient("localhost",5554);
+//		mainClient.connectAndWait();
+	}
+
+	@AfterClass
+	public static void tearDownAfterClass() throws Exception {    //end the tests
+		MainClient.mainClient.closeConnection();
+		MainServer.mainServer.close();
+	}
+
+	@Before
+	public void setUp() throws Exception {
+
+		MainServer.main(new String[]{"5554","root","root"});
+		MainClient.main(new String[] {"localhost","5554"});
+	}
+
+	@After
+	public void tearDown() throws Exception {
+		//MainClient.mainClient.closeConnection();
+		//MainServer.mainServer.close();
+	}
+
+	@Test
+	public void testUserAndPasswordEmpty() {
+		Object expected = null;
+		//System.out.println(WorkerController.login("2001", pass));
+		assertEquals(expected, WorkerController.login("2001", pass));
+	}
+
+}
