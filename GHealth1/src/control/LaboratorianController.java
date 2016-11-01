@@ -19,7 +19,7 @@ import ocsf.Main.client_file;
 import boundry.GUI.*;
 /**
  * 
- * @author Vlad Teplitski
+ * @author Vladislav Teplitski
  *
  */
 public class LaboratorianController extends AbstractMenuGUI{
